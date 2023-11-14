@@ -2,11 +2,13 @@
 Project Duration: 2023.09-2023.12 
 
 
+
 ## About the Project
 
 ### Project Goals 
 
 The main purpose of ClubGearHub is to optimize the use and maintenance of equipment and ensure the resources necessary for club activities by managing and tracking equipment in the club in an efficient and systematic manner. 
+
 
 
 ### Brief Description 
