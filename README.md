@@ -1,11 +1,13 @@
 # ClubGearHub
 Project Duration: 2023.09-2023.12 
 
+
 ## About the Project
 
 ### Project Goals 
 
 The main purpose of ClubGearHub is to optimize the use and maintenance of equipment and ensure the resources necessary for club activities by managing and tracking equipment in the club in an efficient and systematic manner. 
+
 
 ### Brief Description 
 
@@ -19,6 +21,7 @@ Equipment usage data provides information to help you use your equipment effecti
 ### Development Engine and Language
 Python, Git
 
+
 ### Members
 
 박제혁 – code : write some guidlines for How will the data be stored and what functions are needed 
@@ -30,6 +33,7 @@ Python, Git
 Menad Issam - code : write some guidlines for How will the data be stored and what functions are needed 
 
 Mantas Gricius – installation : Think about how you will deploy our project. how to install it. and document the method, update it, and manage it. 
+
 
 ### Feature List 
 
