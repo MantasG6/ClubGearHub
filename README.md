@@ -16,7 +16,7 @@ Equipment manager or club/organization leader: Efficient management of equipment
 Equipment usage data provides information to help you use your equipment effectively and optimize your budget. An equipment rental program allows you to set a regular maintenance schedule and identify equipment that needs maintenance. 
  
 
-### 개발 엔진 및 언어
+### Development Engine and Language
 Python, Git
 
 ### Members
