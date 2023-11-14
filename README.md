@@ -21,7 +21,8 @@ ClubGearHub optimizes equipment management for clubs, ensuring efficient use and
 
 ### Members & Responsibilities
 - **박제혁**: Write guidelines for data storage and required functions.
-- **김지수 & 강민지**: Connect and add the documentation link for ReadTheDocs hosting to the ReadMe file.
+- **김지수**: Connect and add the documentation link for ReadTheDocs hosting to the ReadMe file.
+- **강민지**: Connect and add the documentation link for ReadTheDocs hosting to the ReadMe file.
 - **Menad Issam**: Write guidelines for data storage and required functions.
 - **Mantas Gricius**: Handle deployment, installation methods, and ongoing management documentation.
 
