@@ -19,7 +19,7 @@ Equipment usage data provides information to help you use your equipment effecti
 ### 개발 엔진 및 언어
 Python, Git
 
-### 멤버 구성
+### Members
 
 박제혁 – code : write some guidlines for How will the data be stored and what functions are needed 
 
