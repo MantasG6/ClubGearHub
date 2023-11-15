@@ -49,6 +49,12 @@ exclude_patterns = []
 #
 html_theme = 'sphinx_rtd_theme'
 
+# html output path
+html_output_path = './docs/build/html'
+
+# source directory
+html_extra_path = ['./docs/source']
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
