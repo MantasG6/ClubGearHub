@@ -39,3 +39,6 @@ ClubGearHub optimizes equipment management for clubs, ensuring efficient use and
 - **Apache-2.0**
 
 ## Contact Information
+
+## Documentation Link for ReadTheDocs hosting
+[documentation](https://clubgearhub.readthedocs.io/en/latest)
