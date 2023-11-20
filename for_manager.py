@@ -1,4 +1,5 @@
 import pickle
+import datetime
 
 class MEquipment:                                            #장비 객체
     def __init__(self,type,detail,deadline,total):
@@ -53,7 +54,23 @@ def interface_main_page(all_equipment_dic):
     elif op == 'g':
         type=input()
 
+def borrow_equipment(self, user_id):
+        if self.num > 0:  # Check if there is equipment to borrow
+            self.num -= 1
+            self.owner_ID.append({'user_id': user_id, 'date_borrowed': datetime.now()})
+            print(f"{self.type} has been borrowed by the user {user_id}.")
+        else:
+            print(f"Sorry, no {self.type} available to be borrowed.")
 
+def return_equipment(self, user_id):
+        for item in self.owner_ID:
+            if item['user_id'] == user_id:  # Check if the user borrowed this equipment
+                item['date_returned'] = datetime.now()
+                self.num += 1
+                print(f"{self.type} has been returned by id {user_id}.")
+                break
+        else:
+            print(f"The user {user_id} did not borrow {self.type}.")
 
 all_equipment_dic={}
 users_dic={}
