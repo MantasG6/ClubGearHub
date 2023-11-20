@@ -50,6 +50,8 @@ def save_data(all_equipment_dic, users_dic):
     with open('data.p', 'wb') as file:
         pickle.dump(all_equipment_dic, file)
         pickle.dump(users_dic, file)
+    print('저장이 완료되었습니다!')
+
 
 def input_new_equipment_type(all_equipment_dic):
     type=input('새로운 장비를 입력하세요\n>>')
@@ -59,23 +61,26 @@ def input_new_equipment_type(all_equipment_dic):
         all_equipment_dic[type]=[]
 
 def print_equipment_types(all_equipment_dic):
-    print("아래는 현재 존재하는 장비 종류입니다\n\n")
+    print("\n\n아래는 현재 존재하는 장비 종류입니다")
     for type in all_equipment_dic:
         print(type)
+    print('')
 
 def interface_main_page(all_equipment_dic, users_dic):
-    print_equipment_types(all_equipment_dic)                                                                        #등록된 장비 종류 전부 출력
-    print("q:프로그램 종료,s:저장,a:장비 종류 추가,d:장비 종류 삭제, g (장비 종류): 해당 장비 메뉴로 이동\n")           #유저 빌려간 장비 확인.
-    op=input('>>')
-    if op=='q':
-        exit_program()
-    elif op =='s':
-        save_data(all_equipment_dic, users_dic)
-    elif op == 'a':
-        input_new_equipment_type(all_equipment_dic)
-    elif op == 'g':
-        type=input()
-        
+    while(True):
+        print_equipment_types(all_equipment_dic)                                                                        #등록된 장비 종류 전부 출력
+        print("q:프로그램 종료,s:저장,a:장비 종류 추가,d:장비 종류 삭제, g (장비 종류): 해당 장비 메뉴로 이동\n")           #유저 빌려간 장비 확인.
+        op=input('>>')
+        if op=='q':
+            exit_program()
+        elif op =='s':
+            save_data(all_equipment_dic, users_dic)
+        elif op == 'a':
+            input_new_equipment_type(all_equipment_dic)
+        elif op == 'g':
+            type=input()
+        else:
+            print(op+'는 존재하지 않는 명령임!')
 
 init_program()
 
