@@ -60,7 +60,7 @@ def input_new_equipment_type(all_equipment_dic):
     else:
         all_equipment_dic[type]=[]
 
-def print_equipment_types(all_equipment_dic):               #현재 존재하는 장비 종류들 모두 출
+def print_equipment_types(all_equipment_dic):               #현재 존재하는 장비 종류들 모두 출력
     print("\n\n아래는 현재 존재하는 장비 종류입니다")
     for type in all_equipment_dic:
         print(type)
