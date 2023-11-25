@@ -2,7 +2,6 @@
 How to use
 ===========================
 
-<<<<<<< HEAD
 
 On the first page, a list of equipment types is provided:
 
@@ -83,4 +82,3 @@ For Equipment Managers/Leaders
    - Use these insights for optimization and scheduling improvements.
 
 ClubGearHub is designed to streamline equipment management, ensuring a seamless experience for both club members and equipment managers. If you encounter any issues or have questions, refer to the "Help Center" or contact our support team for assistance.
->>>>>>> origin/feature/installation
