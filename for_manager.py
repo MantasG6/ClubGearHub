@@ -11,6 +11,7 @@ class MEquipment:                                            #장비 객체
         self.owner_ID=[]                                    #누가 빌려 갔는 지?(ID로 저장, 자료형은 고민)
 
 
+
 class UEquipment:
     def __init__(self,type,detail,deadline,num):
         self.type=type
