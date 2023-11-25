@@ -7,7 +7,6 @@ System Requirements
 
 Before installing ClubGearHub, ensure that your system meets the following requirements:
 
--c
 1. Accessing ClubGearHub
    ~~~~~~~~~~~~~~~~~~~~~
 
