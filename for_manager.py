@@ -83,7 +83,7 @@ def interface_main_page(all_equipment_dic, users_dic):
         elif op == 'g':
             type=input()
         else:
-            print('op+' is a non-existent command!)
+            print(op+'is a non-existent command!')
             # print(op+'는 존재하지 않는 명령임!')
 
 init_program()
