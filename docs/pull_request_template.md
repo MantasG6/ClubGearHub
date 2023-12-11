@@ -45,8 +45,4 @@ Before submitting the pull request, please ensure that you have completed the fo
 - [ ] I have made meaningful and atomic commits.
 - [ ] I have squashed multiple commits into a single, coherent commit (if necessary).
 
-**Code of Conduct**
-
-Please note that by submitting this pull request, you agree to abide by the `Code of Conduct <https://github.com/clubgearhub/clubgearhub/blob/main/CODE_OF_CONDUCT.md>`_.
-
 Thank you for your contribution! Your efforts help make ClubGearHub better for everyone.
